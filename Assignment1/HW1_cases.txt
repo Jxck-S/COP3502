@@ -1,0 +1,99 @@
+//Case 1
+20 25
+1 4 14 L BoatOne
+1 20 25 D BoatTwo
+3 2 12 2 10
+3 2 12 10 2
+1 2 12 R BoatThree
+2 1
+3 2 12 2 10
+3 2 12 10 2
+4
+
+//Case 1 Output 
+0
+0
+2
+BoatThree
+BoatOne
+1
+BoatThree
+
+
+//Case 2
+
+20 20
+1 20 1 L BoatOne
+1 20 2 D BoatTwo
+1 20 20 D BoatThree
+1 19 20 R BoatFour
+1 2 1 L BoatFive
+3 20 20 2 2
+2 1
+3 20 20 2 2
+4
+
+
+//Case 2 Output
+
+2
+BoatThree
+BoatOne
+3
+BoatTwo
+BoatFour
+BoatFive
+
+// Case 3 gabu
+
+30 35
+1 1 1 L boat1
+1 1 1 R boat2
+1 1 1 U boat3
+1 1 1 D boat4
+1 30 35 L boat1
+1 30 35 R boat2
+1 30 35 U boat3
+1 30 35 D boat4
+2 5
+3 1 1 10 10
+2 10
+3 30 35 10 10
+4
+
+// Case 3 Gabu output unknown correct 
+
+// Extra input 
+100000 100000
+1 61230 80615 R BoatOne
+2 3
+1 48181 38602 U BoatTwo
+3 48182 38600 10 1
+1 85285 55523 R BoatThree
+3 85290 55527 9 5
+1 2773 78838 U BoatFour
+1 30134 12067 D BoatFive
+3 61238 80616 6 7
+1 83412 34749 R BoatSix
+3 83411 34748 4 8
+3 48181 38601 5 2
+1 44590 6464 U BoatSeven
+2 10
+1 59633 31586 U BoatEight
+1 14535 92062 D BoatNine
+1 69038 98628 D BoatTen
+2 10
+1 50868 39943 L BoatEleven
+3 83437 34748 4 2
+4
+
+//Extra output
+
+0
+0
+0
+1
+BoatSix
+1
+BoatTwo
+0
